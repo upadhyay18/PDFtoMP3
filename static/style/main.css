@@ -1,0 +1,110 @@
+
+header{ 
+	position: fixed;
+	top:0px;
+    left:0px;
+    right: 0px;
+	width: 100%;
+	background-color:rgb(1, 1, 2);
+    height: 10%;
+    text-align: center;
+    font-style:oblique;
+    font-size:200%;
+    color: white;
+}
+body{
+    background-image:url('book2.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    padding-top: 15%;
+    color: azure;
+}
+.srcpage{
+    position: fixed;
+    top: 20%;
+    left:20%;
+    float: center;
+    border: 2px groove rgb(250, 250, 250);
+    text-decoration: none;
+    color: white;
+    padding:4px;
+    margin: 4px;
+    transition: 0.88s;
+    background-color: rgba(173, 113, 230, 0.609);
+}
+.srcpage:hover{
+    background-color: rgba(173, 113, 230, 0.863);;
+}
+.from{
+    position: relative;
+    left: 15vw;
+    width:400px;
+    background-color:rgba(235, 214, 214, 0.5);
+    border:5px groove rgba(17, 12, 12, 0.534) ;
+    border-radius: 20px;
+    position: relative;
+    font-weight: 20px;
+    font-size: larger;
+    color:rgb(0, 0, 0);
+    margin-left: 20%;
+    padding:10px;
+    text-align: center;
+}
+.from input, select{
+    height:25px;
+    background-color: rgba(131, 211, 194, 0.692);
+    color:black;
+    font-weight:500;
+    font-size: 15px;
+    border:1px groove rgba(235, 214, 214, 0.5);
+    border-radius: 12px;
+    margin: 10px;
+    text-align: center;
+    transition: 0.9s;
+}
+.form input[type="file"]{
+   color: brown;
+   background-color: brown;
+}
+.from input:hover,select:hover{
+    background-color: rgb(131, 211, 193);
+}
+#filename{
+    display:none;
+}
+#pdfButton{
+    align-items: center;
+    height:25px;
+    background-color: rgba(131, 211, 194, 0.692);
+    color:black;
+    font-weight:500;
+    font-size: 15px;
+    border:1px groove rgba(235, 214, 214, 0.5);
+    border-radius: 12px;
+    margin-bottom: 8px;
+    padding: 4.5px;
+    text-align: center;
+    transition: 0.9s;
+}
+#pdfButton:hover{
+    background-color: rgb(131, 211, 193);
+}
+#submit{
+    background-color: rgba(55, 255, 5, 0.445);
+    font-weight: 200;
+    font-size: medium;
+    transition: 0.8s;
+}
+#submit:hover{
+    background-color: rgba(0, 250, 54, 0.801);
+}
+#note{
+    color: rgb(238, 238, 238);
+    margin: 10px;
+    padding: 10px;
+    font-size: larger;
+    font-weight: 400;
+    margin:7%;
+    text-shadow: 1px,1px;
+}
